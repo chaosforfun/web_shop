@@ -156,6 +156,7 @@ export default defineConfig(({ mode }) => {
       open: false,
       // 代理（如需本地接口代理可在此配置）
       proxy: {
+        '/api': 'http://127.0.0.1:20400'
         // 示例：
         // '/api': {
         //   target: env.VITE_APP_BASE_API,
